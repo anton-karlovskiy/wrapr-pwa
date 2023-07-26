@@ -1,0 +1,39 @@
+{
+    "dbConfig" : {
+      "host": "localhost",
+      "port": 27017,
+      "name": "videowrapper"
+    },
+
+    "mainServerPort" : 3001,
+    
+    "fileRootPath" : "./public/",
+    "filePublicPath" : "public/",
+    "createdVideoPath" : "created-video/",
+    "templatePath" : "template/",
+
+    "fileServerPort" : 3009,
+    "fileServerHost" : "localhost",
+
+    "supportedMimes": {
+      "text/csv": "csv"
+    },
+
+    "uploadsFolder": "uploads",
+
+    "waterMarkImagePath" : "./assets/watermark/watermark.png",
+
+    "prorate": false,
+
+    "emailAddress": "dcarnegie18@gmail.com",
+    "emailPassword": "ninjaassasin",
+    "fromEmailAddress": "mySqlDemoEmail@gmail.com",
+    "stripe": {
+      "secretKey": "sk_test_P5n9Nv9ZKEJccHHLfnKK3v3a",
+      "product": "prod_F0tDOTaJQc4HGf",
+      "webhookSigningSecret": "whsec_afjejufIZ72xVN8M0MeDJIR3N2sCTKVZ",
+      "webhookEndpoint": "/api/stripe-listen-webhook"
+    },
+
+    "maxBuffer": 5000
+}
